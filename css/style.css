@@ -751,15 +751,15 @@ h6 {
 }
 
 .heading-content .actions .btn-cta.btn-primary {
-  border: 2px solid #51a852;
-  background: #51a852;
+  border: 2px solid #1f8ceb;
+  background: #1f8ceb;
   opacity: 1;
   margin-left: 0px;
 }
 
 .heading-content .actions .btn-cta.btn-primary:hover {
-  background: #49974a;
-  border: 2px solid #49974a;
+  background: #1f8ceb;
+  border: 2px solid #1f8ceb;
   color: #fff;
 }
 
