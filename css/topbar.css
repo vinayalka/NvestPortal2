@@ -505,10 +505,12 @@
 }
 /* @media only screen and (min-width: 992px){ */
 .topli2{
-	float: right;
+	float: right !important;
 }
 /* }	 */
 
-@media only screen and (max-width: 992px){
-	
-}
+/* @media only screen and (max-width: 600px){ */
+/* .topbardiv {	 */
+	/* display: none; */
+/* } */
+/* } */
