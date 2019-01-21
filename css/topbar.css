@@ -516,7 +516,11 @@
 }
 
 /* from here */
-
+#menuToggle
+{
+	display:none;
+}
+@media only screen and (max-width: 600px){
 #menuToggle
 {
 display: block;
@@ -583,7 +587,7 @@ transform-origin: 0% 100%;
 {
 opacity: 1;
 transform: rotate(45deg) translate(-2px, -1px);
-background: #232323;
+background: #fff;
 }
 
 
@@ -603,12 +607,12 @@ transform: rotate(-45deg) translate(0, -1px);
 #menu
 {
 position: absolute;
-width: 300px;
-margin: -47px 0 0 -254px;
+width: 248px;
+margin: -55px 0 0 -204px;
 padding: 50px;
 padding-top: 125px;
 
-background: #EDEDED;
+background: #182542;
 list-style-type: none;
 -webkit-font-smoothing: antialiased;
 
@@ -630,5 +634,11 @@ font-size: 22px;
 {
 transform: none;
 }
+}
 
+@media only screen and (max-width: 600px){
+.cw{
+	color: #fff !important;
+}
+}
 /* to here */
