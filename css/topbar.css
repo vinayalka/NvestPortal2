@@ -413,10 +413,10 @@
     max-height: 600px;
     padding: 6px 0;
   }
-  .topbar-menu {
-    display: block;
-    width: 100%;
-  }
+  /* .topbar-menu { */
+    /* display: block; */
+    /* width: 100%; */
+  /* } */
   .topbar-menu > ul > li {
     margin: 0 16px 0 0 !important;
   }
@@ -503,12 +503,12 @@
 .topli1{
 	margin-left: 9px !important;
 }
-@media only screen and (min-width: 992px){
+/* @media only screen and (min-width: 992px){ */
 .topli2{
 	float: right;
 }
-}	
+/* }	 */
 
-@media screen and (min-device-width: 768px) and (max-device-width: 1024px){
+@media only screen and (max-width: 992px){
 	
 }
