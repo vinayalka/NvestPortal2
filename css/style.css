@@ -2419,8 +2419,8 @@ h6 {
   font: 500 14px/30px "Roboto", sans-serif;
   padding: 5px 28px;
   letter-spacing: 1px;
-  background: #1f8ceb;
-  border-color: #1f8ceb;
+  background: #0D1F47;
+  border-color: #0D1F47;
   top: 50%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
@@ -2429,8 +2429,8 @@ h6 {
 }
 
 .blog_signup_area .form-group .btn-primary:hover {
-  background: #1088f2;
-  border-color: #1088f2;
+  background: #0D1F47;
+  border-color: #0D1F47;
 }
 
 /*============== popular_guide_area css =============*/
@@ -2805,7 +2805,7 @@ h6 {
 }
 
 .post .post-title a:hover {
-  color: #1f8ceb;
+  color: #0D1F47;
 }
 
 .post .meta {
@@ -2867,7 +2867,7 @@ h6 {
 }
 
 .post .post-content .post-intro a:hover {
-  color: #1f8ceb;
+  color: #0D1F47;
 }
 
 .post .post-content:hover .post-thumb:after {
@@ -2917,12 +2917,12 @@ h6 {
 }
 
 .pagination .page-item .page-link:hover {
-  background: #1f8ceb;
+  background: #0D1F47;
   color: #fff;
 }
 
 .pagination .page-item.active .page-link {
-  background: #1f8ceb;
+  background: #0D1F47;
   color: #fff;
 }
 
