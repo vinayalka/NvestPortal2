@@ -14,12 +14,47 @@
     <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
+	<link rel="stylesheet" href="css/topbar.css">
     
   </head>
   <body data-spy="scroll" data-target="#middle_nav" data-offset="70" data-scroll-animation="true">
     <!-- Header Area --> 
-    <header id="header" class="header">  
-        <div class="container">      
+    <header id="header" class="header">
+		
+		<div class="topbardiv">
+		          <nav class="topbar-menu  topli1">
+		            <ul class="menu">
+					<li class="list-inline-item"><a href="#"><i class="	fa fa-play" aria-hidden="true"></i></a></li>
+                    <li class="list-inline-item"><a href="https://www.facebook.com/NvestPortal-176720189880362/?modal=admin_todo_tour"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+                    <li class="list-inline-item"><a href="#"><i class="fab fa-github" aria-hidden="true"></i></a></li>
+                    <li class="list-inline-item"><a href="https://www.instagram.com/nvestportal/"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                    <li class="list-inline-item"><a href="#"><i class="fab fa-medium" aria-hidden="true"></i></a></li>
+					</ul>
+					</nav>
+					
+				  <nav class="topbar-menu topli2">
+					<ul class="menu">
+		              <li class="menu-item">
+		                <a href="career.html">Careers</a>
+		              </li>
+
+		              <li class="menu-item">
+		                <a href="support.html">Support</a>
+		              </li>
+
+		              <li class="menu-item">
+		                <a href="contact.html">Contact</a>
+		              </li>
+					  
+					  <li class="menu-item">
+		                <a href="blog.html">Press</a>
+		              </li>
+					</ul>
+				  </nav>
+		
+		</div>
+		
+        <div class="container-fluid navSec">      
             <nav class="main-nav navbar navbar-right navbar-expand-md">   
                 <a class="navbar-brand logo" href="index.html"><img src="img/NvestPortal White Logo.png" style="width:150px;" alt=""></a>  
                 <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbar-collapse">
@@ -37,23 +72,17 @@
                 </button>
                 <div id="navbar-collapse" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav ml-auto">
-                        <!-- <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li> -->
+                        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
                         <li class="nav-item"><a class="nav-link" href="features.html">Features</a></li>
-                        <li class="nav-item"><a class="nav-link" href="stories.html">Stories</a></li>
-                        <li class="nav-item"><a class="nav-link" href="pricing.html">Pricing</a></li>
-                        <li class="nav-item dropdown active">
-                            <a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Pages</a>
-                            <div class="dropdown-menu dropdown-menu-right">
-                                <a class="dropdown-item" href="about.html">About Us</a>
-                                <a class="dropdown-item" href="story-single.html">Customer Details</a>
-                                <a class="dropdown-item" href="blog.html">Blog</a>
-                                <a class="dropdown-item" href="blog-single.html">Blog Details</a>
-                                <a class="dropdown-item" href="support.html">Support Center</a>  
-                                <a class="dropdown-item" href="career.html">Career</a> 
-                                <a class="dropdown-item" href="job-single.html">Job Single</a>
-                                <a class="dropdown-item" href="contact.html">Contact</a>                   
-                            </div>                            
-                        </li><!--//dropdown-->                        
+                        <li class="nav-item dropdown">
+						  <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Platform<b class="caret"></b></a>
+						  <ul class="dropdown-menu">
+							<li><a href="buyers.html">For Token Buyers</a></li>
+							<li><a href="admin.html">For ICO Admins</a></li>
+						  </ul>
+						</li>
+                        <li class="nav-item"><a class="nav-link" href="pricing.html">FAQs</a></li>
+                                             
                         <li class="nav-item"><a class="nav-link login-trigger" href="#" data-toggle="modal" data-target="#login-modal">Log in</a></li>
                         <li class="nav-item nav-item-cta last"><a class="btn-signup" href="#" data-toggle="modal" data-target="#signup-modal">Sign Up</a></li>
                     </ul><!--//nav-->

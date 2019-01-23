@@ -514,9 +514,14 @@
 		display: none;
 	}
 }
+
+.topbardiv {
+	background-color: #0D1F47;
+}
 @media only screen and (max-width: 600px){
 .topbardiv {	
 	/* display: none; */
+	background-color: #0D1F47;
 }
 }
 
