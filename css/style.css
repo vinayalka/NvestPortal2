@@ -3442,7 +3442,7 @@ h6 {
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   right: 100px;
-  background: rgba(31, 140, 235, 0.8);
+  background: #0D1F47;
   color: #fff;
   font-size: 15px;
   border-radius: 5px;
@@ -4175,4 +4175,16 @@ h6 {
 .navSec{
 	margin:0 auto;
 	/* width:1140px; */
+}
+
+@media screen and (min-width: 600px){
+.nvplogo{
+	width: 150px;
+}
+}
+
+@media screen and (max-width: 600px){
+.nvplogo{
+	width: 100px;
+}
 }
