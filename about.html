@@ -49,39 +49,31 @@
 		              </li>
 					</ul>
 				  </nav>
+			<!-- topbar for mobile start -->
+			<div id="myNav" class="overlay">
+			  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			  <div class="overlay-content">
+				<a href="career.html">Careers</a>
+				<a href="support.html">Support</a>
+				<a href="contact.html">Contact</a>
+				<a href="blog.html">Press</a>
+			  </div>
+			</div>
+			<span class="dots" style="" onclick="openNav()">...</span>
+			<script>
+			function openNav() {
+			  document.getElementById("myNav").style.height = "100%";
+			}
+
+			function closeNav() {
+			  document.getElementById("myNav").style.height = "0%";
+			}
+			</script>
+			<!-- topbar for mobile end -->
 		</div>
         <div class="container-fluid navSec">      
             <nav class="main-nav navbar navbar-right navbar-expand-md">   
-                <a class="navbar-brand logo" href="index.html"><img src="img/NvestPortal White Logo.png" style="width:150px;" alt=""></a>
-
-				
-				
-<div id="mySidebar" class="sidebar">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-  <a href="#">About</a>
-  <a href="#">Services</a>
-  <a href="#">Clients</a>
-  <a href="#">Contact</a>
-</div>
-
-
-  <a class="openbtn" onclick="openNav()">...</a>  
-
-
-<script>
-function openNav() {
-  document.getElementById("mySidebar").style.width = "250px";
-  document.getElementById("main").style.marginLeft = "250px";
-}
-
-function closeNav() {
-  document.getElementById("mySidebar").style.width = "0";
-  document.getElementById("main").style.marginLeft= "0";
-}
-</script>				
-		
-
-		
+                <a class="navbar-brand logo" href="index.html"><img src="img/NvestPortal White Logo.png" style="width:150px;" alt=""></a>		
                 <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbar-collapse">
                     <span class="menu_toggle">
                         <span class="hamburger">
